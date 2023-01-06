@@ -65,6 +65,7 @@ public class automationExerciseTest {
         WebElement newUserText= driver.findElement(By.xpath("//*[text()='New User Signup!']"));
         Assert.assertTrue(newUserText.isDisplayed());
 
+
     }
 
     @Test
