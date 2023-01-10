@@ -62,6 +62,8 @@ public class ActionsMethods {
         Thread.sleep(1000);
         WebElement ulkeler= driver.findElement(By.xpath("(//a[@data-ga='seoindexlinks'])[1]"));
         ulkeler.click();
+        WebElement turkiye= driver.findElement(By.xpath("//*[@id=\"countryTmpl\"]/div[43]/div[1]/h2/a"));
+        booking.scrollToElement(turkiye).click(turkiye).perform();
 
      }
 }
